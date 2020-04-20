@@ -1,7 +1,7 @@
 # code your #valid_move? method here
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-def valid_move? (board, index)
+def valid_move? (board, position)
   board = index.to_i-1
   index.between?(0, 8) && !position_taken?(board index)
 end
